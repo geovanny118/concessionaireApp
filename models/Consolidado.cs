@@ -25,12 +25,13 @@ public class Consolidado {
     }
 
     public void GetConsolidado(){
+        Console.WriteLine("\t\tENE\tFEB\tMAR\tABR\tMAY\tJUN\tJUL\tAGO\tSEP\tOCT\tNOV\tDIC");
         for (int fila = 0; fila < consolidado.GetLength(0); fila++)
         {
             for (int col = 0; col < consolidado.GetLength(1); col++)
             {
                 if(col == 0){
-                    Console.Write("Semana " + (fila+1) + ": ");
+                    Console.Write("Semana " + (fila+1) + ":\t");
                 }
 
                 Console.Write(consolidado[fila, col].Nombre+ "-" + consolidado[fila, col].Ventas + "\t");
@@ -171,9 +172,10 @@ public class Consolidado {
 
     public void getVendedoresCuartaSemanaMensual(){
         Console.WriteLine("Vendedores de la cuarta semana de cada mes: ");
+        Console.WriteLine("ENE\tFEB\tMAR\tABR\tMAY\tJUN\tJUL\tAGO\tSEP\tOCT\tNOV\tDIC");
         for (int col = 0; col < consolidado.GetLength(1); col++)
         {
-            Console.Write(consolidado[3, col].Nombre + " ");
+            Console.Write(consolidado[3, col].Nombre + "\t");
         }
         Console.WriteLine();
     }
@@ -188,6 +190,6 @@ public class Consolidado {
                 vendedor = consolidado[fila, 11].Nombre;
             }   
         }
-        Console.Write("Mejor vendedor de diciembre es " + vendedor + " ventas: " + venta);
+        Console.Write("Mejor vendedor de diciembre es " + vendedor + " con " + venta + " ventas");
     }
 }
