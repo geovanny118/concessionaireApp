@@ -22,9 +22,11 @@ public class Consolidado {
                 consolidado[s, m] = v;
             }
         }
+        Console.WriteLine();
     }
 
     public void GetConsolidado(){
+        Console.WriteLine("\t\t\t\t\t\tCONSOLIDADO DE VENTAS AÑO 2020");
         Console.WriteLine("\t\tENE\tFEB\tMAR\tABR\tMAY\tJUN\tJUL\tAGO\tSEP\tOCT\tNOV\tDIC");
         for (int fila = 0; fila < consolidado.GetLength(0); fila++)
         {
@@ -38,6 +40,7 @@ public class Consolidado {
             }
             Console.WriteLine();
         }
+        Console.WriteLine();
     }
 
     public void GetVendedorAnual(){
@@ -73,7 +76,7 @@ public class Consolidado {
             }
         }
 
-        Console.WriteLine("Ventas anuales de cada vendedor: " + " A:"+a+ " B:"+b + " C:"+c+ " D:" + d);
+        Console.WriteLine("Ventas anuales de cada vendedor: " + " A:"+a+ " B:"+b + " C:"+c+ " D:" + d + "\n");
 
         for (int i = 0; i < 4; i++)
         {
@@ -86,25 +89,25 @@ public class Consolidado {
         switch (max)
         {
             case 0:
-                Console.WriteLine("El mejor vendedor anual es A con " + a + " Ventas");
+                Console.WriteLine("1. El mejor vendedor anual es A con " + a + " Ventas");
                 break;
 
             case 1:
-                Console.WriteLine("El mejor vendedor anual es B con " + b + " Ventas");
+                Console.WriteLine("1. El mejor vendedor anual es B con " + b + " Ventas");
                 break;
 
             case 2:
-                Console.WriteLine("El mejor vendedor anual es C con " + c + " Ventas");
+                Console.WriteLine("1. El mejor vendedor anual es C con " + c + " Ventas");
                 break;
 
             case 3:
-                Console.WriteLine("El mejor vendedor anual es D con " + d + " Ventas");
+                Console.WriteLine("1. El mejor vendedor anual es D con " + d + " Ventas");
                 break;
         }
+        Console.WriteLine();
     }
 
-    public void GetMesMejorVenta()
-    {
+    public void GetMesMejorVenta(){
         int ventas = 0, mes=0;
         for (int fila = 0; fila < consolidado.GetLength(0); fila++)
         {
@@ -121,63 +124,64 @@ public class Consolidado {
         switch (mes)
         {
             case 0:
-                Console.WriteLine("Enero fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Enero fue el mes de la mejor venta del año.");
                 break;
 
             case 1:
-                Console.WriteLine("Febrero fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Febrero fue el mes de la mejor venta del año.");
                 break;
 
             case 2:
-                Console.WriteLine("Marzo fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Marzo fue el mes de la mejor venta del año.");
                 break;
 
             case 3:
-                Console.WriteLine("Abril fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Abril fue el mes de la mejor venta del año.");
                 break;
 
             case 4:
-                Console.WriteLine("Mayo fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Mayo fue el mes de la mejor venta del año.");
                 break;
 
             case 5:
-                Console.WriteLine("Junio fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Junio fue el mes de la mejor venta del año.");
                 break;
 
             case 6:
-                Console.WriteLine("Julio fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Julio fue el mes de la mejor venta del año.");
                 break;
 
             case 7:
-                Console.WriteLine("Agosto fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Agosto fue el mes de la mejor venta del año.");
                 break;
 
             case 8:
-                Console.WriteLine("Septiembre fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Septiembre fue el mes de la mejor venta del año.");
                 break;
 
             case 9:
-                Console.WriteLine("Octubre fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Octubre fue el mes de la mejor venta del año.");
                 break;
 
             case 10:
-                Console.WriteLine("Noviembre fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Noviembre fue el mes de la mejor venta del año.");
                 break;
 
             case 11:
-                Console.WriteLine("Diciembre fue el mes de la mejor venta del año.");
+                Console.WriteLine("2. Diciembre fue el mes de la mejor venta del año.");
                 break;
         }
+        Console.WriteLine();
     }
 
     public void getVendedoresCuartaSemanaMensual(){
-        Console.WriteLine("Vendedores de la cuarta semana de cada mes: ");
+        Console.WriteLine("3. Vendedores de la cuarta semana de cada mes: ");
         Console.WriteLine("ENE\tFEB\tMAR\tABR\tMAY\tJUN\tJUL\tAGO\tSEP\tOCT\tNOV\tDIC");
         for (int col = 0; col < consolidado.GetLength(1); col++)
         {
             Console.Write(consolidado[3, col].Nombre + "\t");
         }
-        Console.WriteLine();
+        Console.WriteLine("\n");
     }
 
     public void getVendedorDiciembre(){
@@ -190,6 +194,7 @@ public class Consolidado {
                 vendedor = consolidado[fila, 11].Nombre;
             }   
         }
-        Console.Write("Mejor vendedor de diciembre es " + vendedor + " con " + venta + " ventas");
+        Console.Write("4. Mejor vendedor de diciembre es " + vendedor + " con " + venta + " ventas");
+        Console.WriteLine("\n");
     }
 }

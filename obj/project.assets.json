@@ -8,30 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Geovanny\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/geovannyrojaslopez/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Geovanny\\source\\repos\\concessionaireApp\\concessionaireApp.csproj",
+      "projectUniqueName": "/Users/geovannyrojaslopez/Projects/concessionaireApp/concessionaireApp.csproj",
       "projectName": "concessionaireApp",
-      "projectPath": "C:\\Users\\Geovanny\\source\\repos\\concessionaireApp\\concessionaireApp.csproj",
-      "packagesPath": "C:\\Users\\Geovanny\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Geovanny\\source\\repos\\concessionaireApp\\obj\\",
+      "projectPath": "/Users/geovannyrojaslopez/Projects/concessionaireApp/concessionaireApp.csproj",
+      "packagesPath": "/Users/geovannyrojaslopez/.nuget/packages/",
+      "outputPath": "/Users/geovannyrojaslopez/Projects/concessionaireApp/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Geovanny\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/geovannyrojaslopez/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }
