@@ -1,0 +1,15 @@
+/Users/geovannyrojaslopez/Projects/concessionaireApp/bin/Debug/net5.0/concessionaireApp.deps.json
+/Users/geovannyrojaslopez/Projects/concessionaireApp/bin/Debug/net5.0/concessionaireApp.runtimeconfig.json
+/Users/geovannyrojaslopez/Projects/concessionaireApp/bin/Debug/net5.0/concessionaireApp.runtimeconfig.dev.json
+/Users/geovannyrojaslopez/Projects/concessionaireApp/bin/Debug/net5.0/concessionaireApp.dll
+/Users/geovannyrojaslopez/Projects/concessionaireApp/bin/Debug/net5.0/ref/concessionaireApp.dll
+/Users/geovannyrojaslopez/Projects/concessionaireApp/bin/Debug/net5.0/concessionaireApp.pdb
+/Users/geovannyrojaslopez/Projects/concessionaireApp/obj/Debug/net5.0/concessionaireApp.csproj.AssemblyReference.cache
+/Users/geovannyrojaslopez/Projects/concessionaireApp/obj/Debug/net5.0/concessionaireApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/geovannyrojaslopez/Projects/concessionaireApp/obj/Debug/net5.0/concessionaireApp.AssemblyInfoInputs.cache
+/Users/geovannyrojaslopez/Projects/concessionaireApp/obj/Debug/net5.0/concessionaireApp.AssemblyInfo.cs
+/Users/geovannyrojaslopez/Projects/concessionaireApp/obj/Debug/net5.0/concessionaireApp.csproj.CoreCompileInputs.cache
+/Users/geovannyrojaslopez/Projects/concessionaireApp/obj/Debug/net5.0/concessionaireApp.dll
+/Users/geovannyrojaslopez/Projects/concessionaireApp/obj/Debug/net5.0/ref/concessionaireApp.dll
+/Users/geovannyrojaslopez/Projects/concessionaireApp/obj/Debug/net5.0/concessionaireApp.pdb
+/Users/geovannyrojaslopez/Projects/concessionaireApp/obj/Debug/net5.0/concessionaireApp.genruntimeconfig.cache
